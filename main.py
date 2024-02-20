@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 if __name__ == "__main__":
-    num_rows = 20
+    num_rows = 200
     generator = DummyDataGenerator(num_rows=num_rows)
     generated_data = generator.generate_dummy_data()
 

@@ -2,7 +2,7 @@ from application.use_cases import GenerateDummyDataUseCase
 
 
 class DummyDataGenerator:
-    def __init__(self, num_rows=20):
+    def __init__(self, num_rows=50):
         self.num_rows = num_rows
 
     def generate_dummy_data(self):
